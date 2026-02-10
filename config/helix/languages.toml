@@ -1,0 +1,11 @@
+[[language]]
+name = "html"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "css"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "javascript"
+indent = { tab-width = 4, unit = "\t" }

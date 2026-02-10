@@ -1,0 +1,35 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+bufferline = "always"
+color-modes = true
+
+[editor.statusline]
+mode.normal = "normal"
+mode.insert = "insert"
+mode.select = "select"
+right = ["diagnostics", "selections", "position", "total-line-numbers",  "file-encoding",  "file-type"]
+
+[editor.whitespace.render]
+space = "none"
+tab = "all"
+nbsp = "none"
+nnbsp = "none"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "›"
+newline = "⏎"
+tabpad = " "
+
+[editor.indent-guides]
+render = true
+character = "⸽"
+skip-levels = 1
+
+[editor.soft-wrap]
+enable = true
