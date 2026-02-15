@@ -1,0 +1,3 @@
+[font]
+normal = { family = "Cozette", style = "Regular" }
+size = 26.0 # should be 13 when on trout but coppermine's screen has too many pixels :(

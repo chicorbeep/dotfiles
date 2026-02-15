@@ -85,7 +85,7 @@
     "font_family": "CozetteVector",
     "shell": "system",
     "button": true,
-    "font_size": 13.0,
+    "font_size": 26.0,
     "line_height": {"custom": 1}
   },
   "base_keymap": "VSCode",
@@ -97,12 +97,14 @@
   },
   "buffer_line_height": "comfortable",
   "autosave": "on_focus_change",
-  "buffer_font_fallbacks": ["Adwaita Sans", "monospace"],
+  "buffer_font_fallbacks": ["CozetteVector"],
   "buffer_font_family": "IBM Plex Mono",
   "ui_font_size": 16.0,
-	"buffer_font_size": 13.0,
+	"buffer_font_size": 16.0,
   "theme": "Gruvbox Dark Hard",
   "text_rendering_mode": "grayscale",
   "format_on_save": "off",
-
+  "auto_install_extensions": {
+    "wakatime": true
+  },
 }
