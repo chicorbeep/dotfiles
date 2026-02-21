@@ -6,22 +6,13 @@
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://yalter.github.io/niri/Configuration:-Input
+
 input {
     keyboard {
         xkb {
-            // You can set rules, model, layout, variant and options.
-            // For more information, see xkeyboard-config(7).
-
-            // For example:
-            // layout "us,ru"
-            // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
-
-            // If this section is empty, niri will fetch xkb settings
-            // from org.freedesktop.locale1. You can control these using
-            // localectl set-x11-keymap.
+        	layout "us(intl)"
+         	options "compose:rctrl"
         }
-
-        // Enable numlock on startup, omitting this setting disables it.
         numlock
     }
 
@@ -86,6 +77,7 @@ output "eDP-1" {
     // If the mode is omitted altogether or is invalid, niri will pick one automatically.
     // Run `niri msg outputs` while inside a niri instance to list all outputs and their modes.
     mode "2256x1504@59.999"
+    // i dont know hwy this is 59.999
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
     scale 1
@@ -111,7 +103,7 @@ output "eDP-1" {
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 16
+    gaps 24
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
@@ -138,7 +130,9 @@ layout {
     // preset-window-heights { }
 
     // You can change the default width of the new windows.
-    default-column-width {}
+    default-column-width {
+    	proportion 0.5
+    }
     // If you leave the brackets empty, the windows themselves will decide their initial width.
     // default-column-width {}
 
@@ -159,7 +153,7 @@ layout {
         // off
 
         // How many logical pixels the ring extends out from the windows.
-        width 4
+        width 2
 
         // Colors can be set in a variety of ways:
         // - CSS named colors: "red"
@@ -167,7 +161,7 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#7fc8ff"
+        active-color "salmon"
 
         // Color of the ring on inactive monitors.
         //
@@ -215,7 +209,7 @@ layout {
     // You can enable drop shadows for windows.
     shadow {
         // Uncomment the next line to enable shadows.
-        // on
+        on
 
         // By default, the shadow draws only around its window, and not behind it.
         // Uncomment this setting to make the shadow draw behind its window.
@@ -237,16 +231,16 @@ layout {
         // pixels and match the CSS box-shadow properties.
 
         // Softness controls the shadow blur radius.
-        softness 30
+        softness 10
 
         // Spread expands the shadow.
-        spread 5
+        spread 0
 
         // Offset moves the shadow relative to the window.
-        offset x=0 y=5
+        offset x=0 y=0
 
         // You can also change the shadow color and opacity.
-        color "#0007"
+        color "#fcc7"
     }
 
     // Struts shrink the area occupied by windows, similarly to layer-shell panels.
@@ -283,12 +277,13 @@ hotkey-overlay {
 // Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
 // This option will also fix border/focus ring drawing behind some semitransparent windows.
 // After enabling or disabling this, you need to restart the apps for this to take effect.
-// prefer-no-csd
+prefer-no-csd
 
 // You can change the path where screenshots are saved.
 // A ~ at the front will be expanded to the home directory.
 // The path is formatted with strftime(3) to give you the screenshot date and time.
-screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+screenshot-path "~/pictures/snips/%Y/%m/%Y-%m-%dT%H-%M-%S.png"
+
 
 // You can also set this to null to disable saving screenshots to disk.
 // screenshot-path null
@@ -342,7 +337,7 @@ window-rule {
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {
-    geometry-corner-radius 12
+    geometry-corner-radius 8
     clip-to-geometry true
 }
 

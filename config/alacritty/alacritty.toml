@@ -1,3 +1,5 @@
 [font]
 normal = { family = "Cozette", style = "Regular" }
-size = 26.0 # should be 13 when on trout but coppermine's screen has too many pixels :(
+bold = {family = "Cozette", style = "Regular"} # cozette's bold is not the same width as normal, so this.
+builtin_box_drawing = false
+size = 13.0
