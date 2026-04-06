@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80mm"
+   height="19.999998mm"
+   viewBox="0 0 80 19.999998"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="pallete.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.77504209"
+     inkscape:cx="396.75265"
+     inkscape:cy="561.25984"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 10,0 H 9.44777 1.31418 0 v 9.9999925 h 10 z"
+       style="mix-blend-mode:normal;fill:#18122b;fill-opacity:1;stroke-width:4.99998;paint-order:fill markers stroke"
+       id="path19"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="M 40,19.999999 V 9.9999925 H 50 V 19.999999 Z"
+       style="mix-blend-mode:normal;fill:#999dfb;fill-opacity:1;stroke-width:5;paint-order:fill markers stroke"
+       id="path27" />
+    <path
+       d="M 20,19.999999 V 9.9999925 H 30 V 19.999999 Z"
+       style="mix-blend-mode:normal;fill:#29c498;fill-opacity:1;stroke-width:5;paint-order:fill markers stroke"
+       id="path29" />
+    <path
+       d="M 30,19.999999 V 9.9999925 H 40 V 19.999999 Z"
+       style="mix-blend-mode:normal;fill:#f6ba60;fill-opacity:1;stroke-width:5;paint-order:fill markers stroke"
+       id="path30" />
+    <path
+       d="M 70,9.9999925 V 19.999999 H 71.31418 79.44776 80 V 9.9999925 Z"
+       style="fill:#faf9fe;fill-opacity:1;stroke-width:4.99997;paint-order:fill markers stroke"
+       id="path18"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="M 70,0 V 9.9999925 H 71.31418 79.44776 80 V 0 Z"
+       style="fill:#d2c7ea;fill-opacity:1;stroke-width:4.99997;paint-order:fill markers stroke"
+       id="path2"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="M 60,9.9999925 V 19.999999 H 61.31418 69.44776 70 V 9.9999925 Z"
+       style="fill:#41bbc9;fill-opacity:1;stroke-width:4.99997;paint-order:fill markers stroke"
+       id="path3"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="M 60,0 V 9.9999925 H 61.31418 69.44776 70 V 0 Z"
+       style="fill:#359da9;fill-opacity:1;stroke-width:4.99997;paint-order:fill markers stroke"
+       id="path4"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="M 50,9.9999925 V 19.999999 H 51.31418 59.44776 60 V 9.9999925 Z"
+       style="fill:#c48af2;fill-opacity:1;stroke-width:4.99997;paint-order:fill markers stroke"
+       id="path5"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="M 50,0 V 9.9999925 H 51.31418 59.44776 60 V 0 Z"
+       style="fill:#a36ee1;fill-opacity:1;stroke-width:4.99997;paint-order:fill markers stroke"
+       id="path6"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="M 40,0 V 9.9999925 H 41.31418 49.44776 50 V 0 Z"
+       style="fill:#7c7cef;fill-opacity:1;stroke-width:4.99997;paint-order:fill markers stroke"
+       id="path7"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="M 30,9.9999925 V 0 h 10 v 9.9999925 z"
+       style="mix-blend-mode:normal;fill:#cd902c;fill-opacity:1;stroke-width:5;paint-order:fill markers stroke"
+       id="path8" />
+    <path
+       d="M 20,9.9999925 V 0 h 10 v 9.9999925 z"
+       style="mix-blend-mode:normal;fill:#24ad86;fill-opacity:1;stroke-width:5;paint-order:fill markers stroke"
+       id="path9" />
+    <path
+       d="M 10,19.999999 V 9.9999925 H 20 V 19.999999 Z"
+       style="mix-blend-mode:normal;fill:#f95db2;fill-opacity:1;stroke-width:5;paint-order:fill markers stroke"
+       id="path10" />
+    <path
+       d="M 10,9.9999925 V 0 h 10 v 9.9999925 z"
+       style="mix-blend-mode:normal;fill:#d33893;fill-opacity:1;stroke-width:5;paint-order:fill markers stroke"
+       id="path11" />
+    <path
+       d="M 0,9.9999925 V 19.999999 H 1.31418 9.44776 10 V 9.9999925 Z"
+       style="fill:#654199;fill-opacity:1;stroke-width:4.99997;paint-order:fill markers stroke"
+       id="path13"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>

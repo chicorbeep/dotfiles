@@ -3,3 +3,30 @@ normal = { family = "Cozette", style = "Regular" }
 bold = {family = "Cozette", style = "Regular"} # cozette's bold is not the same width as normal, so this.
 builtin_box_drawing = false
 size = 13.0
+
+[window]
+opacity = 0.9
+
+[colors.primary]
+foreground = "#faf9fe"
+background = "#18122b"
+
+[colors.normal]
+black = "#18122b"
+red = "#d33893"
+green = "#24ad86"
+yellow = "#cd902c"
+blue = "#7c7cef"
+magenta = "#a36ee1"
+cyan = "#359da9"
+white = "#d2c7ea"
+
+[colors.bright]
+black = "#654199"
+red = "#f95db2"
+green = "#29c498"
+yellow = "#f6ba60"
+blue = "#999dfb"
+magenta = "#c48af2"
+cyan = "#41bbc9"
+white = "#faf9fe"

@@ -1,17 +1,17 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[█](#7d7cff)\
+[█](#7c7cef)\
 $os\
 $username$hostname\
-[](bg:#DA627D fg:#7d7cff)\
+[](bg:#d33893 fg:#7c7cef)\
 $directory\
-[](fg:#DA627D bg:#ae4f00)\
+[ ](fg:#d33893 bg:#cd902c)\
 $git_branch\
 $git_status\
-[](fg:#ae4f00 bg:#ec33a0)\
+[ ](fg:#cd902c bg:#654199)\
 $status\
-[ ](fg:#ec33a0)\
+[ ](fg:#654199)\
 """
 
 right_format = """
@@ -26,15 +26,15 @@ add_newline = false
 # and use the os module below
 [username]
 show_always = true
-style_user = "bg:#7d7cff"
-style_root = "bg:#7d7cff"
+style_user = "bg:#7c7cef"
+style_root = "bg:#7c7cef"
 format = '[$user@]($style)'
 disabled = false
 
 [hostname]
 ssh_only = false
 format = "[$hostname ]($style)"
-style = "bg:#7d7cff"
+style = "bg:#7c7cef"
 
 # An alternative to the username module which displays a symbol that
 # represents the current operating system
@@ -43,16 +43,16 @@ style = "bg:#9A348E"
 disabled = true # Disabled by default
 
 [directory]
-style = "bg:#DA627D"
+style = "bg:#d33893"
 format = "[ $path ]($style)"
 truncation_length = 1
 fish_style_pwd_dir_length = 1
 
 [status]
 disabled = false
-style = "bg:#ec33a0"
-format = "[ $status ]($style)"
-
+style = "bg:#654199"
+format = "[$symbol$status ]($style)"
+symbol = "× "
 
 [time]
 disabled = false
@@ -61,9 +61,9 @@ style = "#7f75b4"
 format = '[ $time ]($style)'
 
 [git_branch]
-style = "bg:#ae4f00"
-format = '[ $symbol$branch(:$remote_branch) ]($style)'
+style = "bg:#cd902c"
+format = '[$symbol$branch(:$remote_branch) ]($style)'
 
 [git_status]
-style = "bg:#ae4f00"
+style = "bg:#cd902c"
 format = "([$all_status$ahead_behind ]($style))"
