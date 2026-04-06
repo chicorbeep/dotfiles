@@ -1,0 +1,69 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[█](#7d7cff)\
+$os\
+$username$hostname\
+[](bg:#DA627D fg:#7d7cff)\
+$directory\
+[](fg:#DA627D bg:#ae4f00)\
+$git_branch\
+$git_status\
+[](fg:#ae4f00 bg:#ec33a0)\
+$status\
+[ ](fg:#ec33a0)\
+"""
+
+right_format = """
+[](#7f75b4)\
+$time\
+"""
+
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+# You can also replace your username with a neat symbol like   or disable this
+# and use the os module below
+[username]
+show_always = true
+style_user = "bg:#7d7cff"
+style_root = "bg:#7d7cff"
+format = '[$user@]($style)'
+disabled = false
+
+[hostname]
+ssh_only = false
+format = "[$hostname ]($style)"
+style = "bg:#7d7cff"
+
+# An alternative to the username module which displays a symbol that
+# represents the current operating system
+[os]
+style = "bg:#9A348E"
+disabled = true # Disabled by default
+
+[directory]
+style = "bg:#DA627D"
+format = "[ $path ]($style)"
+truncation_length = 1
+fish_style_pwd_dir_length = 1
+
+[status]
+disabled = false
+style = "bg:#ec33a0"
+format = "[ $status ]($style)"
+
+
+[time]
+disabled = false
+time_format = "%F %X" # Hour:Minute Format
+style = "#7f75b4"
+format = '[ $time ]($style)'
+
+[git_branch]
+style = "bg:#ae4f00"
+format = '[ $symbol$branch(:$remote_branch) ]($style)'
+
+[git_status]
+style = "bg:#ae4f00"
+format = "([$all_status$ahead_behind ]($style))"
